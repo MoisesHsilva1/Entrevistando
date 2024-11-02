@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #01080E;
+    color: #FFF;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #FFF;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.box-content {
+    background-color: #16213E;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    margin-bottom: 10px;
+}
+
+.response-IA,
+.response-text {
+    display: block;
+    background-color: #1b2845;
+    border-radius: 15px;
+    padding: 10px 15px;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    font-size: 14px;
+    color: #FFF;
+    position: relative;
+}
+
+.response-IA {
+    background-color: #4c5b92;
+    margin-bottom: 10px;
+    border-radius: 15px 15px 15px 0;
+}
+
+.response-IA::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #4c5b92 transparent transparent transparent;
+}
+
+.response-text {
+    background-color: #1b2845;
+    border-radius: 15px 15px 0 15px;
+}
+ .response-text::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #1b2845 transparent transparent transparent;
+} 
+
+.field-message {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    background-color: #FFF;
+    color: #000;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.field-message:focus {
+    border-color: #4c5b92;
+}
+
+.button-gerateText {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4c5b92;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-gerateText:hover {
+    background-color: #16213E;
+}
+
+.button-gerateText:active {
+    transform: scale(0.98);
+}
