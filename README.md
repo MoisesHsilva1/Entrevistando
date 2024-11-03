@@ -1,6 +1,6 @@
 # Chat Simulador de Entrevista
 
-Este projeto é um chat interativo que simula entrevistas de emprego, ajudando os usuários a desenvolver habilidades socioemocionais e a se prepararem para o sucesso em entrevistas reais. O chatbot foi desenvolvido como parte do meu projeto do ano letivo, utilizando tecnologias modernas para garantir uma experiência fluida e eficaz.
+Este projeto é um chat interativo que simula entrevistas de emprego, ajudando os usuários a desenvolver habilidades socioemocionais e a se prepararem para o sucesso em entrevistas reais. O chatbot foi desenvolvido como parte do meu projeto do ano letivo Senac, utilizando tecnologias modernas para garantir uma experiência fluida e eficaz.
 
 ## Funcionalidades
 
