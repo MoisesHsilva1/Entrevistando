@@ -1,3 +1,5 @@
+import { SendMessage } from "../services/ResquestServer"
+
 export function Inputs() {
     return (
         <>
@@ -5,18 +7,9 @@ export function Inputs() {
                 <article className="avatar-section">
                     <img src="/assets/avatar.png" alt="Avatar" className="avatar" />
                     <p>RecrutadoraIA</p>
-                    <span className="response-IA"></span>
-                    <span className="response-text"></span>
+                    <SendMessage />
                 </article>
                 <aside>
-                    <input
-                        type="text"
-                        className="field-message"
-                        placeholder="Digite (iniciar) para iniciarmos a entrevista"
-                    />
-                    <button className="button-gerateText">
-                        Enviar
-                    </button>
                 </aside>
             </section>
         </>

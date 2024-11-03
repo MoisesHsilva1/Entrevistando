@@ -85,7 +85,8 @@ body {
     background-color: #1b2845;
     border-radius: 15px 15px 0 15px;
 }
- .response-text::before {
+
+.response-text::before {
     content: "";
     position: absolute;
     bottom: -10px;
@@ -130,4 +131,33 @@ body {
 
 .button-gerateText:active {
     transform: scale(0.98);
+}
+
+.buttonVoiceText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: #4c5b92;
+    transition: transform 0.2s;
+}
+
+.buttonVoiceText:hover {
+    transform: scale(1.05);
+}
+
+.buttonVoiceText:active {
+    transform: scale(0.95);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
 }
