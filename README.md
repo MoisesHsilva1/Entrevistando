@@ -23,6 +23,11 @@ Este projeto é um chat interativo que simula entrevistas de emprego, ajudando o
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=%20DESENVOLVIDO&color=GREEN&style=for-the-badge"/>
 </p>
 
+# Autor
+
+ [<img loading="lazy" src="https://github.com/MoisesHsilva1/Projeto-E2E/assets/142702205/b1a9e6e2-60b0-4ce6-ba81-edcddd954366" width=115><br><sub>Moisés Henrique</sub>](https://github.com/MoisesHsilva1) 
+
+
 
 
 
