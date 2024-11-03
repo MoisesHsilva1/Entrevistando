@@ -17,6 +17,11 @@ Este projeto é um chat interativo que simula entrevistas de emprego, ajudando o
 - **React:** Biblioteca para construção da interface do usuário.
 - **Vite:** Ferramenta de construção e empacotamento para projetos frontend.
 - **CORS:** Middleware para permitir requisições de diferentes origens.
+  
+<h2>Status do Projeto</h2>
+<p align="left">
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=%20DESENVOLVIDO&color=GREEN&style=for-the-badge"/>
+</p>
 
 
 
