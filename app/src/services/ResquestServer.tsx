@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import VoiceToText from "../components/Mic";
+import AnimatedMessage from "../components/AnimatedMessage";
 
 export function SendMessage() {
     const [valueRespondeUser, setResponseUser] = useState<string[]>([]);
@@ -41,7 +42,9 @@ export function SendMessage() {
             {valueRespondeUser.length > 0 && (
                 <span className="response-text">Você: {valueRespondeUser[0]}</span>
             )}
-            {messagesIA && <span className="response-IA">IA: {messagesIA}</span>}
+            {messagesIA && (<span className="response-IA">
+                IA: <AnimatedMessage message={messagesIA} />
+            </span>)}
             <input
                 type="text"
                 className="field-message"
